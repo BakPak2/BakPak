@@ -41,13 +41,13 @@
           <li><a href="/#/translate" id="dropdownChoice">TRANSLATOR</a></li>
           <li><a href="/#/restaurants" id="dropdownChoice">RESTAURANTS</a></li>
         </ul>
-        <ul class="right hide-on-med-and-down">
+        <ul class="right hide-on-med-and-down" ng-controller="signinCtrl">
           <li><a class="dropdown-button" href="#!" data-activates="plan-ahead">PLAN AHEAD<i class="material-icons right">arrow_drop_down</i></a></li>
           <li><a class="dropdown-button" href="#!" data-activates="traveling">TRAVELING<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li><a href="/#/signin">SIGN IN</a></li>
-          <li><a href="/#/signup">SIGN UP</a></li>
-          <li><a href="/#/signout">SIGN OUT</a></li>
-          <li><a ng-controller="signinCtrl" ng-show="showStuff();" href="/#/mystuff">MY STUFF</a></li>
+          <li><a ng-hide="showStuff();" href="/#/signin">SIGN IN</a></li>
+          <li><a ng-hide="showStuff();" href="/#/signup">SIGN UP</a></li>
+          <li><a ng-show="showStuff();" href="/#/signout">SIGN OUT</a></li>
+          <li><a ng-show="showStuff();" href="/#/mystuff">MY STUFF</a></li>
         </ul>
         <ul class="side-nav" id="mobile-nav">
           <li><a href="/#/explore">EXPLORE</a></li>
