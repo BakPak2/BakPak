@@ -1,12 +1,12 @@
 # Bakpak 
 
-Simple Angular Travel Web-Application
+Angular Travel Web-Application
 
 ## Team
 
 -__Product Owner__: Jason Maier
 -__Scrum Master__: Gery Egan
--__Development Team Members__: Michelle Li, Bruna Enos 
+-__Development Team Members__: Michelle Li, Bruna Enos, Nikki Galusha, Victor Choi, Joanne Xin, Chris Doo
 
 ##Table of Contents
 
