@@ -1,6 +1,6 @@
 # Bakpak 
 
-Angular Travel Web-Application
+Travel Web-Application
 
 ## Team
 
